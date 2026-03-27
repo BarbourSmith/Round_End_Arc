@@ -1,13 +1,560 @@
 {
-    "atomType": "Molecule",
-    "x": 0,
-    "y": 0,
-    "uniqueID": "id-77976",
-    "name": "Round_End_Arc",
-    "topLevel": true,
-    "allAtoms": [],
-    "allConnectors": [],
-    "unitsKey": "MM",
-    "fileTypeVersion": 1,
-    "filetypeVersion": 1
+  "atomType": "Molecule",
+  "x": 0,
+  "y": 0,
+  "uniqueID": "id-77976",
+  "name": "Round_End_Arc",
+  "ioValues": [
+    {
+      "name": "Angle",
+      "ioValue": 90,
+      "currentEquation": "90"
+    },
+    {
+      "name": "ID",
+      "ioValue": 10
+    },
+    {
+      "name": "OD",
+      "ioValue": 17
+    }
+  ],
+  "topLevel": true,
+  "allAtoms": [
+    {
+      "atomType": "Output",
+      "x": 0.98,
+      "y": 0.5,
+      "uniqueID": "id-77977",
+      "ioValues": [
+        {
+          "name": "number or geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ]
+    },
+    {
+      "atomType": "Input",
+      "x": 0.025384615384615384,
+      "y": 0.37604456824512533,
+      "uniqueID": "id-77979",
+      "name": "Angle"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.025384615384615384,
+      "y": 0.5181058495821727,
+      "uniqueID": "id-77982",
+      "name": "ID"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.025384615384615384,
+      "y": 0.6908077994428969,
+      "uniqueID": "id-77985",
+      "name": "OD"
+    },
+    {
+      "atomType": "GitHubMolecule",
+      "x": 0.23148148148148145,
+      "y": 0.7298050139275767,
+      "uniqueID": "id-77999",
+      "name": "Concentric_Circles",
+      "ioValues": [
+        {
+          "name": "OD",
+          "ioValue": 17
+        },
+        {
+          "name": "ID",
+          "ioValue": 10
+        }
+      ],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-77993",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        },
+        {
+          "atomType": "Input",
+          "x": 0.025384615384615384,
+          "y": 0.15384615384615385,
+          "uniqueID": "id-77994",
+          "name": "OD",
+          "type": "number"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.025384615384615384,
+          "y": 0.24615384615384617,
+          "uniqueID": "id-77995",
+          "name": "ID",
+          "type": "number"
+        },
+        {
+          "atomType": "Circle",
+          "x": 0.460559796437659,
+          "y": 0.42567567567567566,
+          "uniqueID": "id-77996",
+          "ioValues": [
+            {
+              "name": "diameter",
+              "ioValue": 17
+            }
+          ]
+        },
+        {
+          "atomType": "Circle",
+          "x": 0.44529262086514,
+          "y": 0.7263513513513513,
+          "uniqueID": "id-77997",
+          "ioValues": [
+            {
+              "name": "diameter",
+              "ioValue": 10
+            }
+          ]
+        },
+        {
+          "atomType": "Difference",
+          "x": 0.6615776081424937,
+          "y": 0.5506756756756757,
+          "uniqueID": "id-77998",
+          "ioValues": [
+            {
+              "name": "geometry1",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "geometry2",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        }
+      ],
+      "allConnectors": [
+        {
+          "ap2Name": "diameter",
+          "ap1ID": "id-77994",
+          "ap2ID": "id-77996"
+        },
+        {
+          "ap2Name": "diameter",
+          "ap1ID": "id-77995",
+          "ap2ID": "id-77997"
+        },
+        {
+          "ap2Name": "geometry1",
+          "ap1ID": "id-77996",
+          "ap2ID": "id-77998"
+        },
+        {
+          "ap2Name": "geometry2",
+          "ap1ID": "id-77997",
+          "ap2ID": "id-77998"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-77998",
+          "ap2ID": "id-77993"
+        }
+      ],
+      "parentRepo": {
+        "lastFoundGit": "2026-03-27T18:23:39.361Z",
+        "privateRepo": false,
+        "repoName": "Concentric_Circles",
+        "dateCreated": "2025-11-08T04:08:14Z",
+        "likes": 0,
+        "readMe": "https://raw.githubusercontent.com/BarbourSmith/Concentric_Circles/master/README.md?sanitize=true",
+        "yyyy": 2025,
+        "topMoleculeID": "id-1170",
+        "githubMoleculesUsed": [],
+        "html_url": "https://github.com/BarbourSmith/Concentric_Circles",
+        "topics": [],
+        "parentRepo": null,
+        "forks": 0,
+        "dateModified": "739563",
+        "ranking": 8.7,
+        "searchField": "concentric_circles barboursmith creates two concentric circles. the result is 2d ",
+        "owner": "BarbourSmith",
+        "description": "Creates two concentric circles. The result is 2D",
+        "contentURL": "https://raw.githubusercontent.com/BarbourSmith/Concentric_Circles/master/project.abundance?sanitize=true",
+        "svgURL": "https://raw.githubusercontent.com/BarbourSmith/Concentric_Circles/master/project.svg?sanitize=true",
+        "isLocal": false
+      },
+      "unitsKey": "Unitless",
+      "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.18716931216931218,
+      "y": 0.34818941504178275,
+      "uniqueID": "id-78015",
+      "name": "(O-I)/2",
+      "ioValues": [
+        {
+          "name": "O",
+          "ioValue": 17
+        },
+        {
+          "name": "I",
+          "ioValue": 10
+        }
+      ],
+      "currentEquation": "(O-I)/2"
+    },
+    {
+      "atomType": "Circle",
+      "x": 0.2969576719576719,
+      "y": 0.3983286908077995,
+      "uniqueID": "id-78021",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 3.5
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.3968253968253968,
+      "y": 0.5125348189415042,
+      "uniqueID": "id-78024",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 6.75
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.19576719576719578,
+      "y": 0.5654596100278552,
+      "uniqueID": "id-78030",
+      "name": "I/2+D/2",
+      "ioValues": [
+        {
+          "name": "I",
+          "ioValue": 10
+        },
+        {
+          "name": "D",
+          "ioValue": 3.5
+        }
+      ],
+      "currentEquation": "I/2+D/2"
+    },
+    {
+      "atomType": "Rotate",
+      "x": 0.6461640211640212,
+      "y": 0.24233983286908078,
+      "uniqueID": "id-78036",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "x-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "y-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "z-axis degrees",
+          "ioValue": 45
+        }
+      ]
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.47949735449735453,
+      "y": 0.12534818941504178,
+      "uniqueID": "id-78042",
+      "name": "A/2",
+      "ioValues": [
+        {
+          "name": "A",
+          "ioValue": 90
+        }
+      ],
+      "currentEquation": "A/2"
+    },
+    {
+      "atomType": "Rotate",
+      "x": 0.6527777777777778,
+      "y": 0.4596100278551532,
+      "uniqueID": "id-78047",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "x-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "y-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "z-axis degrees",
+          "ioValue": -45
+        }
+      ]
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.4755291005291006,
+      "y": 0.3816155988857939,
+      "uniqueID": "id-78053",
+      "name": "-1*X",
+      "ioValues": [
+        {
+          "name": "X",
+          "ioValue": 45
+        }
+      ],
+      "currentEquation": "-1*X"
+    },
+    {
+      "atomType": "GitHubMolecule",
+      "x": 0.18518518518518517,
+      "y": 0.9303621169916434,
+      "uniqueID": "id-78124",
+      "name": "Isosceles-Triangle---Angle",
+      "ioValues": [
+        {
+          "name": "Angle",
+          "ioValue": 20
+        },
+        {
+          "name": "Height",
+          "ioValue": 100
+        },
+        {
+          "name": "Thickness",
+          "ioValue": 10
+        }
+      ],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-78119",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        },
+        {
+          "atomType": "Code",
+          "x": 0.4933862433862434,
+          "y": 0.4608938547486033,
+          "uniqueID": "id-78120",
+          "ioValues": [
+            {
+              "name": "height",
+              "ioValue": 100
+            },
+            {
+              "name": "thickness",
+              "ioValue": 10
+            },
+            {
+              "name": "angle",
+              "ioValue": 20
+            }
+          ],
+          "codeVersion": 1,
+          "code": " \n      //Inputs:[angle, height, thickness]\n      //This defines the molecules inputs and creates variables with the same names which can be referenced in the code\n    \n      \n      //We can also create a new shape from scratch\n      let createdRectangle = replicad.drawRectangle(5,7)\n      //This is the plane we are going to put our new shape on\n      const newPlane = new replicad.Plane().pivot(0, 'Y');\n      //And we extrude the shape to make it 3D\n      let createdShape = createdRectangle.sketchOnPlane(newPlane).extrude(height)\n\n      let angleRad = angle * Math.PI / 180;\n      let base = 2 * height * Math.tan(angleRad / 2);\n\n      const triangle = replicad.draw([-base/2, 0])\n              .lineTo([base/2, 0])\n              .lineTo([0, height])\n              .close()\n              .sketchOnPlane()\n              .extrude(thickness)\n      \n      //For our new geometry we need to define the tags, color, plane, etc\n      let shape2 = {\n          geometry: [triangle], \n          tags: [\"aTag\"],\n          color: '#A3CE5B',\n          plane: newPlane,\n          bom: []\n      }\n      \n      //Then we can return our created shape in just the same way\n      return shape2\n \n      \n      \n          /**\n          To Use the Code Atom, enter your inputs to the input list a.e Inputs:[shape, height]\n          If your input is connected to another atom with a replicad geometry you can access its geometry by looking up its ID in your library. a.e library[Input1].geometry[0] \n          Use any replicad available methods to modify your geometry. Learn more about all of the available methods at \n          https://replicad.xyz/docs/introapp/UserGuide.html \n          Return a replicad object that includes geometry, color, tags and plane. \n      \n      \n          Example Code Atom:\n      \n            Inputs:[shape, x];\n      \n            let finalShape = library[shape].geometry[0].clone.translate[x,0,0]\n      \n            return {geometry: finalShape, color: library[shape].color, plane: library[shape].plane, tags: library[shape].tags }\n      \n            - See more examples at _______ \n      \n      \n          */\n      "
+        },
+        {
+          "atomType": "Input",
+          "x": 0.025384615384615384,
+          "y": 0.15384615384615385,
+          "uniqueID": "id-78121",
+          "name": "Angle",
+          "type": "number"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.025384615384615384,
+          "y": 0.24615384615384617,
+          "uniqueID": "id-78122",
+          "name": "Height",
+          "type": "number"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.025384615384615384,
+          "y": 0.3384615384615385,
+          "uniqueID": "id-78123",
+          "name": "Thickness",
+          "type": "number"
+        }
+      ],
+      "allConnectors": [
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-78120",
+          "ap2ID": "id-78119"
+        },
+        {
+          "ap2Name": "angle",
+          "ap1ID": "id-78121",
+          "ap2ID": "id-78120"
+        },
+        {
+          "ap2Name": "height",
+          "ap1ID": "id-78122",
+          "ap2ID": "id-78120"
+        },
+        {
+          "ap2Name": "thickness",
+          "ap1ID": "id-78123",
+          "ap2ID": "id-78120"
+        }
+      ],
+      "parentRepo": {
+        "lastFoundGit": "2026-03-27T18:23:39.361Z",
+        "privateRepo": false,
+        "repoName": "Isosceles-Triangle---Angle",
+        "dateCreated": "2025-06-24T21:14:39Z",
+        "likes": 0,
+        "readMe": "https://raw.githubusercontent.com/BarbourSmith/Isosceles-Triangle---Angle/master/README.md?sanitize=true",
+        "yyyy": 2025,
+        "topMoleculeID": "011b35ba-3932-43e3-91e3-c3396d8b40a8",
+        "githubMoleculesUsed": [],
+        "html_url": "https://github.com/BarbourSmith/Isosceles-Triangle---Angle",
+        "topics": [],
+        "parentRepo": null,
+        "forks": 0,
+        "dateModified": "739426",
+        "ranking": 7.8,
+        "searchField": "isosceles-triangle---angle barboursmith a 3d isosceles triangle where the inputs are the angle of the point, the height, and the thickness ",
+        "owner": "BarbourSmith",
+        "description": "A 3D isosceles triangle where the inputs are the angle of the point, the height, and the thickness",
+        "contentURL": "https://raw.githubusercontent.com/BarbourSmith/Isosceles-Triangle---Angle/master/project.abundance?sanitize=true",
+        "svgURL": "https://raw.githubusercontent.com/BarbourSmith/Isosceles-Triangle---Angle/master/project.svg?sanitize=true",
+        "isLocal": false
+      },
+      "unitsKey": "MM",
+      "fileTypeVersion": 1
+    }
+  ],
+  "allConnectors": [
+    {
+      "ap2Name": "A",
+      "ap1ID": "id-77979",
+      "ap2ID": "id-78042"
+    },
+    {
+      "ap2Name": "ID",
+      "ap1ID": "id-77982",
+      "ap2ID": "id-77999"
+    },
+    {
+      "ap2Name": "I",
+      "ap1ID": "id-77982",
+      "ap2ID": "id-78015"
+    },
+    {
+      "ap2Name": "I",
+      "ap1ID": "id-77982",
+      "ap2ID": "id-78030"
+    },
+    {
+      "ap2Name": "OD",
+      "ap1ID": "id-77985",
+      "ap2ID": "id-77999"
+    },
+    {
+      "ap2Name": "O",
+      "ap1ID": "id-77985",
+      "ap2ID": "id-78015"
+    },
+    {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-77999",
+      "ap2ID": "id-77977"
+    },
+    {
+      "ap2Name": "diameter",
+      "ap1ID": "id-78015",
+      "ap2ID": "id-78021"
+    },
+    {
+      "ap2Name": "D",
+      "ap1ID": "id-78015",
+      "ap2ID": "id-78030"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-78021",
+      "ap2ID": "id-78024"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-78024",
+      "ap2ID": "id-78036"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-78024",
+      "ap2ID": "id-78047"
+    },
+    {
+      "ap2Name": "xDist",
+      "ap1ID": "id-78030",
+      "ap2ID": "id-78024"
+    },
+    {
+      "ap2Name": "z-axis degrees",
+      "ap1ID": "id-78042",
+      "ap2ID": "id-78036"
+    },
+    {
+      "ap2Name": "X",
+      "ap1ID": "id-78042",
+      "ap2ID": "id-78053"
+    },
+    {
+      "ap2Name": "z-axis degrees",
+      "ap1ID": "id-78053",
+      "ap2ID": "id-78047"
+    }
+  ],
+  "unitsKey": "MM",
+  "fileTypeVersion": 1,
+  "filetypeVersion": 1
 }
