@@ -4,6 +4,14 @@
 
 ![](/project.svg)
 
+## Inputs
+
+- **Angle** (number)
+- **ID** (number)
+- **OD** (number)
+- **Thickness** (number)
+
+
 
 
  
